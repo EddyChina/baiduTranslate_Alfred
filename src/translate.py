@@ -23,10 +23,11 @@ def trans(word):
     request.add_header("Host", "fanyi.baidu.com")
     result = json.load(urllib2.urlopen(request))
 
+    # pull request https://github.com/zjhch123/Alfred-Workflow-baidu-translate/pull/1
     if re.search('[\u4e00-\u9fa5]', word):
-        lan = '#zh/en'
-    else:
         lan = '#en/zh'
+    else:
+        lan = '#zh/en'
         
     translated = result.get('data')
     items = []
