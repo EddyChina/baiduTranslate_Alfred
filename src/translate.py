@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 # @Author: zjhch123
 # @Date:   2018-02-12 21:08:34
-# @Last Modified by:   hzzhangjiahao1@corp.netease.com
 # @Last Modified time: 2018-02-12 21:14:48
 
 import re
